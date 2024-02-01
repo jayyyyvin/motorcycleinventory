@@ -6,19 +6,21 @@
     <title>Motorcycle</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        /* Style to change the color of the text to white */
+        #responseData {
+            color: white;
+        }
+    </style>
 </head>
 <body class="container mt-5">
-    <!-- Existing content -->
     <div class="text-center">
-        <h1 class="display-4 mb-3" id="data">Slow Connection</h1>
+        
         <button class="btn btn-primary" id="getData">Get Data</button>
     </div>
 
-    <!-- Original placement of the output -->
-    <div class="mt-3">
-        <div class="col-md-8">
-            <pre id="responseData" style="white-space: pre-wrap;"></pre>
-        </div>
+    <div class="container mt-3">
+        <pre id="responseData" style="white-space: pre-wrap;"></pre>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -47,4 +49,4 @@
         });
     </script>
 </body>
-</html>
+</ht
