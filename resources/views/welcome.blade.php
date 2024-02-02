@@ -49,7 +49,7 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">MOTORCYCLE</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">INVENTORY</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <a class="btn btn-primary" href="login">Login</a>
                     </div>
                 </div>
             </div>
@@ -62,9 +62,13 @@
                         <h2 class="text-white mb-4">"Ride into Adventure! Explore Our Motorcycle Collection Today."</h2>
                         <p class="text-white-50">
                         "Explore our diverse motorcycle inventory for thrilling rides tailored to every style and preference. Find your perfect adventure today!"
-                        @include('motorcycle.integration')  
+                        
+                     
+                          
                         </p>
                     </div>
+                    @include('motorcycle.integration')
+
                 </div>
     
        
